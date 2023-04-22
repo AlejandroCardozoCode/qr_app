@@ -1,0 +1,35 @@
+name: qr_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_neumorphic: ^3.2.0
+  google_fonts: ^4.0.3
+  http: ^0.13.5
+  image_gallery_saver: ^1.7.1
+  path_provider: ^2.0.14
+  provider: ^6.0.5
+  qr_image_generator: ^0.2.8
+  sqflite: ^2.2.6
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/PixelLink.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
